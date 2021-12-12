@@ -8,7 +8,7 @@
     "normalize.css": "^8.0.1"
   },
   "scripts": {
-    "build":"parcel build ./src/index.html --dist-dir prod  --public-url ./",
+    "build":"parcel build ./src/index.html --dist-dir docs --public-url ./",
     "start":"parcel src/index.html"
   }
 }
