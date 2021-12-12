@@ -1,0 +1,18 @@
+.button {
+  @include useInterFont();
+  border: none;
+  background-color: $button-background-color;
+  color: $button-font-color;
+  font-weight: 400;
+  text-align: center;
+  line-height: 21px;
+  padding: 10px 24px;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.07);
+  border-radius: 1px;
+  width: 100%;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: darken($button-background-color, 10%);
+  }
+}

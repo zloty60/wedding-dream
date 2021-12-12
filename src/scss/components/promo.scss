@@ -1,0 +1,98 @@
+.promo {
+  position: relative;
+  padding-top: 53px;
+  padding-bottom: 60px;
+
+  @include media-breakpoint-up(xl) {
+    padding-bottom: 180px;
+  }
+
+  @include media-breakpoint-up(xxl) {
+    position: static;
+  }
+
+  .container {
+    @include media-breakpoint-up(xxl) {
+      position: relative;
+    }
+  }
+
+  &__img {
+    max-width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+    @include media-breakpoint-up(sm) {
+      width: 520px;
+    }
+    @include media-breakpoint-up(lg) {
+      width: 450px;
+    }
+    @include media-breakpoint-up(xl) {
+      width: 600px;
+    }
+    @include media-breakpoint-up(xxl) {
+      top: -90px;
+      right: 12px;
+    }
+  }
+
+  &__heading-primary {
+    margin-top: 400px;
+    max-width: 270px;
+    @include marginCenter();
+    margin-bottom: 24px;
+    @include media-breakpoint-up(sm) {
+      max-width: initial;
+      margin-top: 430px;
+    }
+    @include media-breakpoint-up(lg) {
+      margin-top: 42px;
+      text-align: left;
+      max-width: 533px;
+      margin-left: initial;
+      margin-right: initial;
+      margin-bottom: 36px;
+    }
+    @include media-breakpoint-up(xl) {
+      margin-top: 100px;
+    }
+  }
+
+  &__description {
+    @include useInterFont();
+    @include marginCenter();
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: $color-primary-dark;
+    margin-bottom: 36px;
+    max-width: 320px;
+
+    @include media-breakpoint-up(sm) {
+      max-width: initial;
+      font-size: 18px;
+    }
+    @include media-breakpoint-up(lg) {
+      text-align: left;
+      font-size: 24px;
+      line-height: 29px;
+      max-width: 347px;
+      margin-left: initial;
+      margin-right: initial;
+    }
+  }
+
+  &__button {
+    @include media-breakpoint-up(md) {
+      max-width: 410px;
+      @include marginCenter();
+      display: block;
+    }
+    @include media-breakpoint-up(lg) {
+      margin-left: initial;
+      margin-right: initial;
+      max-width: 227px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap");
+@import "npm:normalize.css";
+
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap//scss/mixins";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+
+@import "./variables/colors.scss";
+@import "./base/mixins.scss";
+@import "./base/global.scss";
+@import "./components/button.scss";
+@import "./base/typography.scss";
+@import "./base/utilities.scss";
+
+@import "./components/navbar.scss";
+@import "./components/mobile-menu.scss";
+@import "./components/hero.scss";
+@import "./components/features.scss";
+@import "./components/explanation.scss";
+@import "./components/movie.scss";
+@import "./components/features-premium.scss";
+@import "./components/functions.scss";
+@import "./components/promo.scss";
+@import "./components/footer.scss";

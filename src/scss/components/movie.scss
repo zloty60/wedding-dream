@@ -1,0 +1,50 @@
+.movie {
+  padding-top: 55px;
+  padding-bottom: 72px;
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 130px;
+    padding-bottom: 100px;
+  }
+
+  &__description {
+    @include useInterFont();
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: $color-primary-dark;
+    margin-top: 24px;
+    margin-bottom: 42px;
+    @include media-breakpoint-up(lg) {
+      text-align: left;
+      font-size: 30px;
+      line-height: 36px;
+      max-width: 456px;
+    }
+  }
+
+  &__heading-primary {
+    @include media-breakpoint-up(lg) {
+      text-align: left;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    max-width: 581px;
+  }
+
+  &__img-wrapper {
+    text-align: center;
+    @include media-breakpoint-up(lg) {
+      text-align: left;
+    }
+  }
+
+  &__row {
+    @include media-breakpoint-up(lg) {
+      flex-direction: row-reverse;
+      align-items: center;
+    }
+  }
+}

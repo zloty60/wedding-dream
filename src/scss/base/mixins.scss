@@ -1,0 +1,8 @@
+@mixin useInterFont {
+  font-family: "Inter", sans-serif;
+}
+
+@mixin marginCenter {
+  margin-left: auto;
+  margin-right: auto;
+}

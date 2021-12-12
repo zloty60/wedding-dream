@@ -1,0 +1,21 @@
+.position-relative {
+  position: relative;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-xl-row-reverse {
+  @include media-breakpoint-up(xl) {
+    flex-direction: row-reverse;
+  }
+}
